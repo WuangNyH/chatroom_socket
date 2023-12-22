@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "chatroom-socket"
+version = "0.1.0"
+description = ""
+authors = ["WuangNyH <kayzz0974@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+flask = "^3.0.0"
+flask-socketio = "^5.3.6"
+python-dotenv = "^1.0.0"
+mysql-connector-python = "^8.2.0"
+sqlalchemy = "^2.0.23"
+pydantic = {extras = ["email"], version = "^2.5.2"}
+mysqlclient = "^2.2.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

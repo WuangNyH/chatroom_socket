@@ -1,0 +1,33 @@
+html, body {
+    height: 100%;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.form {
+    width: 50%;
+}
+
+.form-group {
+    margin-top: 20px;
+}
+
+.btn {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.form {
+    border: solid 1px #b5b5b5;
+    padding: 25px 50px;
+    border-radius: 5%;
+}

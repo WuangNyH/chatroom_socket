@@ -1,0 +1,44 @@
+.content {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.create-btn {
+    width: 300px;
+    margin-top: 15px;
+}
+
+.buttons {
+    width: 50%;
+}
+
+.list_room {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.list_room table {
+    width: 50%;
+}
+
+#btn-join {
+    cursor: pointer;
+    transition: all 200ms linear;
+}
+
+#btn-join:hover {
+    color: rgb(29, 76, 196);
+}
+
+.join-exist {
+    background-color: rgba(240, 248, 255, 0);
+    border: none;
+}
