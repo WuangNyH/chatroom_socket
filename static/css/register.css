@@ -31,3 +31,21 @@ h2 {
     padding: 25px 50px;
     border-radius: 5%;
 }
+
+.btn-register {
+    background-color: #b5b5b500;
+    border: none;
+    width: 100%;
+	align-items: center;
+    text-align: center;
+	justify-content: center;
+    font-size: 12px;
+    text-decoration: underline;
+    color: rgb(0, 102, 255);
+    transition: all 200ms linear;
+    cursor: pointer;
+}
+
+.btn-register:hover {
+    color: black;
+}

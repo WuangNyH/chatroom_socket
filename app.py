@@ -42,7 +42,6 @@ def home():
         code = request.form.get("code")
         join = request.form.get("join", False)
         create = request.form.get("create", False)
-        join_exist = request.form.get("join-exist", False)
 
         if join != False and not code:
             return render_template("home.html", error="Please enter a room code.", code=code, name=name, rooms=list_room)
